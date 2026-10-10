@@ -1,0 +1,7 @@
+{
+  "name": "hr-buddy",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^7.0.0"
+  }
+}
