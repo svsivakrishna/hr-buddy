@@ -36,6 +36,6 @@ module.exports = async (req, res) => {
     res.status(200).json({ reply: reply || "Sorry, I didn't get that." });
   } catch (e) {
     console.error(e);
-    res.status(500).json({ reply: 'Sorry, HR Buddy is unavailable right now.' });
+    res.status(500).json({ reply: 'DEBUG: ' + (e && e.message ? e.message : String(e)) });
   }
 };
